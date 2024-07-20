@@ -1,0 +1,9 @@
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; /* Adjust this value to control the vertical spacing */
+    justify-content: center;
+    align-items: center;
+    height: 40vh; /* Make the container take the full height of the viewport */
+  }
+  
