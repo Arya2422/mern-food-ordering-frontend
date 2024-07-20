@@ -55,4 +55,11 @@ export type Order = {
   restaurantId: string;
 };
 
-  
+export type RestaurantSearchResponse = {
+  data: Restaurant[];
+  pagination: {
+    total: number;
+    page: number;
+    pages: number;
+  };
+};  
